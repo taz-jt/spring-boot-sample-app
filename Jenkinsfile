@@ -1,9 +1,7 @@
 pipeline {
     // run on jenkins nodes tha has java 8 label
     agent any
-    tools {
-        maven 'M3'
-     }
+
     // global env variables
     environment {
         EMAIL_RECIPIENTS = 'tazdik.ershad@arbetsformedlingen.se'
